@@ -1,0 +1,3 @@
+Source,Rock,Sample,Target,Actual,Fold,Model,Probability,Predicted,Error
+"Schneiderman JS (1989) The Ascutney Mountain Breccia; field and petrologic evidence for an overlapping relationship between Vermont sequence and New Hampshire sequence rocks. American Journal of Science, 289: 771–811",metapelite,.85-109.,Mg_10,1,3,Random_Forest,0.1625079681796856,0,False_Negative
+"Liu ZH, Chen LY, Liu XC, Fu B, Hu J and Zheng GG (2025) Petrological and geochronological constraints on the genesis of the Foping gneiss dome, South Qinling Belt, central China. Submitted to Journal of Asian Earth Sciences, 277: 106406",metapelite,FP24-5,Fe_10,1,4,Gradient_Boosting,0.1568100906028884,0,False_Negative

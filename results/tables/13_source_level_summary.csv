@@ -1,0 +1,7 @@
+Target,Total_Positive_Observations,Sources_With_Positive,Sources_Without_Positive,Max_Positive_Per_Source,Mean_Positive_Per_Positive_Source
+Mg_05,663,365,365,15,1.8164383561643835
+Mg_10,96,81,649,5,1.1851851851851851
+Mg_12,22,19,711,3,1.1578947368421053
+Fe_05,487,293,437,13,1.6621160409556315
+Fe_10,45,39,691,4,1.1538461538461537
+Fe_12,8,8,722,1,1.0

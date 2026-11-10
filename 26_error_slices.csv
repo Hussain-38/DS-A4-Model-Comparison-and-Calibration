@@ -1,0 +1,49 @@
+Target,Model,Rock,N,Positive_cases,TP,FP,FN,Recall,Review_rate
+Mg_10,Random_Forest,And-St phyllite ,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,BPG metasediments,2,0,0,0,0,,0.0
+Mg_10,Random_Forest,WLG granulites,5,1,0,0,1,0.0,0.0
+Mg_10,Random_Forest,amphibolite,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,felsic,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,felsic granulite,3,0,0,0,0,,0.0
+Mg_10,Random_Forest,granitic gneiss,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,grey schist,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,greywacke,2,0,0,1,0,,0.5
+Mg_10,Random_Forest,metagabbronorite,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,metagranite,19,1,1,1,0,1.0,0.10526315789473684
+Mg_10,Random_Forest,metagraywacke,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,metagreywacke,3,0,0,0,0,,0.0
+Mg_10,Random_Forest,metapelite,2013,92,39,87,53,0.42391304347826086,0.06259314456035768
+Mg_10,Random_Forest,metapelites,9,0,0,0,0,,0.0
+Mg_10,Random_Forest,metapelitic mylonite,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,metapsammite,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,orthogneiss,3,0,0,0,0,,0.0
+Mg_10,Random_Forest,psammopelite,1,0,0,0,0,,0.0
+Mg_10,Random_Forest,quartz-feldspathic gneiss,1,0,0,1,0,,1.0
+Mg_10,Random_Forest,quartzite,2,0,0,0,0,,0.0
+Mg_10,Random_Forest,semipelite,8,1,1,0,0,1.0,0.125
+Mg_10,Random_Forest,whiteschist,2,1,0,0,1,0.0,0.0
+Mg_10,Random_Forest,,2,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,And-St phyllite ,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,BPG metasediments,2,1,1,0,0,1.0,0.5
+Fe_10,Gradient_Boosting,WLG granulites,5,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,amphibolite,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,felsic,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,felsic granulite,3,1,0,0,1,0.0,0.0
+Fe_10,Gradient_Boosting,granitic gneiss,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,grey schist,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,greywacke,2,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,metagabbronorite,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,metagranite,19,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,metagraywacke,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,metagreywacke,3,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,metapelite,2013,41,9,19,32,0.21951219512195122,0.013909587680079483
+Fe_10,Gradient_Boosting,metapelites,9,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,metapelitic mylonite,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,metapsammite,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,orthogneiss,3,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,psammopelite,1,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,quartz-feldspathic gneiss,1,0,0,1,0,,1.0
+Fe_10,Gradient_Boosting,quartzite,2,0,0,0,0,,0.0
+Fe_10,Gradient_Boosting,semipelite,8,1,1,0,0,1.0,0.125
+Fe_10,Gradient_Boosting,whiteschist,2,1,0,0,1,0.0,0.0
+Fe_10,Gradient_Boosting,,2,0,0,0,0,,0.0

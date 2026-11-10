@@ -1,0 +1,131 @@
+DS-A4 FINAL REPRODUCIBILITY AUDIT
+=============================================
+Python: 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
+Platform: Windows-11-10.0.26200-SP0
+pandas: 3.0.6
+NumPy: 2.4.6
+scikit-learn: 1.9.1
+Matplotlib: 3.11.1
+
+REQUIRED FILE CHECK
+FOUND: results\tables\15_modelling_dataset.csv
+  SHA256: 16451f5220acdf3488135f2c4c1b238636826bb65a7b40bcadb113ae21b0061a
+FOUND: results\tables\14_fold_assignments.csv
+  SHA256: 495d5764c478dba2b82b4d8d13a0ea8391160c347e9988522edee241236468ad
+FOUND: results\tables\23_model_comparison_metrics.csv
+  SHA256: 542c0057173b7df3ab9c254d1bab38fab27f91d9eb6d2c368208250026eccb87
+FOUND: results\tables\23_oof_predictions.csv
+  SHA256: e7297415d4aad683dbed66289db8dc9c61290fa58b386d4ec19b2728204b9825
+FOUND: results\tables\25_threshold_cost_analysis.csv
+  SHA256: 0c4feb1d41d905aad9a072f14bb33a8c2e3b705c17bb92124aee82ccb9431297
+FOUND: results\tables\26_error_slices.csv
+  SHA256: 04bbd8249238401de4bd193a3a854a5513fb27d0dd5307f6137dee6161c72c73
+FOUND: results\tables\26_counterexamples.csv
+  SHA256: 11fafc99b7f7d85093b4251eb4e6506415e2db80cb840732d2653b8ad638424c
+FOUND: results\tables\27_paired_cluster_bootstrap.csv
+  SHA256: e5d0ad8a2e0052e67e3e9b489444d398e6bf27934b99fd06c99d4ab7367f1445
+FOUND: results\figures\24_diagnostics_Mg_10.png
+  SHA256: 5f1e31ef31d82f4ac7e9b9566e28600b46b2e6b40e80b9cacbb5a19acbdbe800
+FOUND: results\figures\24_diagnostics_Fe_10.png
+  SHA256: 035b99e2a7da91b82660b2303edf0cff594fe3d43e881760c3481a1f6439c3e8
+FOUND: results\figures\28_cost_curve_Mg_10.png
+  SHA256: 2f17d1664874288588057c9536c79571fcebcfa98aabfc9dd68b7c6f40504fb9
+FOUND: results\figures\28_cost_curve_Fe_10.png
+  SHA256: 3a24d2539993c25ff5bb8ca88e7fae8d315681d775ad1495ac2f742def0ca817
+
+PROJECT FILE INVENTORY
+raw dataset\S3.xls | 1,341,440 bytes
+results\07_pressure_differences.csv | 1,231,339 bytes
+results\figures\08_bland_altman_comparison.png | 1,322,747 bytes
+results\figures\09_pressure_scatterplots.png | 659,488 bytes
+results\figures\10_pressure_difference_distribution.png | 188,674 bytes
+results\figures\12_disagreement_class_balance.png | 167,018 bytes
+results\figures\24_diagnostics_Fe_10.png | 359,262 bytes
+results\figures\24_diagnostics_Mg_10.png | 384,439 bytes
+results\figures\28_cost_curve_Fe_10.png | 212,605 bytes
+results\figures\28_cost_curve_Mg_10.png | 192,199 bytes
+results\tables\06_calibration_range_flags.csv | 1,104,056 bytes
+results\tables\06_exact_duplicates.csv | 3,881 bytes
+results\tables\06_repeated_source_samples.csv | 30,531 bytes
+results\tables\07_pressure_comparison_metrics.csv | 394 bytes
+results\tables\11_bootstrap_confidence_intervals.csv | 379 bytes
+results\tables\11_bootstrap_replicates.csv | 279,153 bytes
+results\tables\12_class_balance_summary.csv | 453 bytes
+results\tables\12_classification_dataset.csv | 1,173,022 bytes
+results\tables\13_source_level_summary.csv | 358 bytes
+results\tables\14_fold_assignments.csv | 983,260 bytes
+results\tables\14_fold_diagnostics.csv | 674 bytes
+results\tables\15_modelling_dataset.csv | 913,062 bytes
+results\tables\18_opaque_assemblage_audit.csv | 522,125 bytes
+results\tables\19_refined_opaque_groups.csv | 533,897 bytes
+results\tables\20_graphite_assemblage_audit.csv | 540,593 bytes
+results\tables\23_model_comparison_metrics.csv | 679 bytes
+results\tables\23_oof_predictions.csv | 3,666,299 bytes
+results\tables\25_threshold_cost_analysis.csv | 7,843 bytes
+results\tables\26_counterexamples.csv | 698 bytes
+results\tables\26_error_slices.csv | 2,664 bytes
+results\tables\27_paired_cluster_bootstrap.csv | 1,580 bytes
+results\tables\28_cost_curve_Fe_10.csv | 196,159 bytes
+results\tables\28_cost_curve_Mg_10.csv | 383,014 bytes
+01_project_setup.py | 1,147 bytes
+02_load_dataset.py | 1,250 bytes
+03_inspect_excel_headers.py | 1,210 bytes
+04_load_correct_dataset.py | 1,723 bytes
+05_data_quality_assessment.py | 4,288 bytes
+06_investigate_data_flags.py | 3,300 bytes
+07_pressure_difference_analysis.py | 3,611 bytes
+08_bland_altman_analysis.py | 3,903 bytes
+09_pressure_scatterplots.py | 3,206 bytes
+10_pressure_difference_distribution.py | 3,711 bytes
+11_cluster_bootstrap_analysis.py | 5,425 bytes
+12_disagreement_classification.py | 92 bytes
+13_source_level_analysis.py | 92 bytes
+14_cross_validation_diagnostics.py | 92 bytes
+15_prepare_modelling_dataset.py | 92 bytes
+16_inspect_original_data_for_common_temperature.py | 92 bytes
+17_inspect_ferric_iron_assumptions.py | 92 bytes
+18_classify_opaque_assemblages.py | 92 bytes
+19_refine_opaque_groups.py | 92 bytes
+20_classify_graphite_assemblages.py | 92 bytes
+21_verify_mineral_abbreviations.py | 92 bytes
+22_check_modelling_inputs.py | 92 bytes
+23_model_comparison.py | 92 bytes
+24_model_diagnostic_plots.py | 92 bytes
+25_threshold_cost_analysis.py | 92 bytes
+26_error_slice_analysis.py | 92 bytes
+27_paired_cluster_bootstrap.py | 92 bytes
+28_cost_curves.py | 92 bytes
+29_final_audit.py | 92 bytes
+raw dataset\S3.xls | 1,341,440 bytes
+results\07_pressure_differences.csv | 1,231,339 bytes
+results\figures\08_bland_altman_comparison.png | 1,322,747 bytes
+results\figures\09_pressure_scatterplots.png | 659,488 bytes
+results\figures\10_pressure_difference_distribution.png | 188,674 bytes
+results\figures\12_disagreement_class_balance.png | 167,018 bytes
+results\figures\24_diagnostics_Fe_10.png | 359,262 bytes
+results\figures\24_diagnostics_Mg_10.png | 384,439 bytes
+results\figures\28_cost_curve_Fe_10.png | 212,605 bytes
+results\figures\28_cost_curve_Mg_10.png | 192,199 bytes
+results\tables\06_calibration_range_flags.csv | 1,104,056 bytes
+results\tables\06_exact_duplicates.csv | 3,881 bytes
+results\tables\06_repeated_source_samples.csv | 30,531 bytes
+results\tables\07_pressure_comparison_metrics.csv | 394 bytes
+results\tables\11_bootstrap_confidence_intervals.csv | 379 bytes
+results\tables\11_bootstrap_replicates.csv | 279,153 bytes
+results\tables\12_class_balance_summary.csv | 453 bytes
+results\tables\12_classification_dataset.csv | 1,173,022 bytes
+results\tables\13_source_level_summary.csv | 358 bytes
+results\tables\14_fold_assignments.csv | 983,260 bytes
+results\tables\14_fold_diagnostics.csv | 674 bytes
+results\tables\15_modelling_dataset.csv | 913,062 bytes
+results\tables\18_opaque_assemblage_audit.csv | 522,125 bytes
+results\tables\19_refined_opaque_groups.csv | 533,897 bytes
+results\tables\20_graphite_assemblage_audit.csv | 540,593 bytes
+results\tables\23_model_comparison_metrics.csv | 679 bytes
+results\tables\23_oof_predictions.csv | 3,666,299 bytes
+results\tables\25_threshold_cost_analysis.csv | 7,843 bytes
+results\tables\26_counterexamples.csv | 698 bytes
+results\tables\26_error_slices.csv | 2,664 bytes
+results\tables\27_paired_cluster_bootstrap.csv | 1,580 bytes
+results\tables\28_cost_curve_Fe_10.csv | 196,159 bytes
+results\tables\28_cost_curve_Mg_10.csv | 383,014 bytes
